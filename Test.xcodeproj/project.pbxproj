@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		552BB9907D514EBDA31573E1 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B42EBB947E4F485E9DCED368 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6C9E1A85582CD0EB7171796F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7775886D25E4470CBFE2AE80 /* PBXTargetDependency */,
+				DF623BFF1A2D49A9990A0BCA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A7937561B9F44CB99A717763 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C2A63E66728414887F5993A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3FFD23B22D88532B682787E4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		672871146B454E598F1C7332 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F6C6657890604288BC554EB7 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */; };
+		AC5DAD952E6846A2B4F11FB8 /* /Users/shraddhaarora/Desktop/dev/Test/Test/main.m */ = {isa = PBXBuildFile; fileRef = F4FA0523060C4A858841C77E /* /Users/shraddhaarora/Desktop/dev/Test/Test/main.m */; };
+		B8FF551B81B14D5FB6328ACB /* /Users/shraddhaarora/Desktop/dev/Test/Test/ViewController.m */ = {isa = PBXBuildFile; fileRef = 522CA72FDE9B435C8601F363 /* /Users/shraddhaarora/Desktop/dev/Test/Test/ViewController.m */; };
+		BCD4D7D501C74DE8A6AE9D68 /* /Users/shraddhaarora/Desktop/dev/Test/Test/AppDelegate.m */ = {isa = PBXBuildFile; fileRef = B70B5259194C4D32970A0CCB /* /Users/shraddhaarora/Desktop/dev/Test/Test/AppDelegate.m */; };
+		C560DC87E01C42F09A2A57E1 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A1E06595BBF44390879D7143 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3A9FFD03658A4DC7B2B4A03E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		58F4076F48BB42F8BDD890F1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		85663F249A3E4985BF5A7474 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CFAA2EC009BF4641BF413397 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		191BB06654C74FD1A6BF99B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8473864A99342EAAD6CFD9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDC082954F6438BBD0B0F4C;
+			remoteInfo = Executable;
+		};
+		4CE38725EDEB4085A645D1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8473864A99342EAAD6CFD9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7937561B9F44CB99A717763;
+			remoteInfo = ZERO_CHECK;
+		};
+		91AAE6E1FA694DD1A07E53BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8473864A99342EAAD6CFD9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7937561B9F44CB99A717763;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F23394ECCB0450C982AE461 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		522CA72FDE9B435C8601F363 /* /Users/shraddhaarora/Desktop/dev/Test/Test/ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ViewController.m; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		A1E06595BBF44390879D7143 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = CMakeFiles/Executable.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		B70B5259194C4D32970A0CCB /* /Users/shraddhaarora/Desktop/dev/Test/Test/AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = AppDelegate.m; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		E254605C94B14A89BB9C78C4 /* Executable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Executable; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FA0523060C4A858841C77E /* /Users/shraddhaarora/Desktop/dev/Test/Test/main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = main.m; path = main.m; sourceTree = SOURCE_ROOT; };
+		F6C6657890604288BC554EB7 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700789D01F5F4B92B49DCA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DAB082B8BE43FF9C23581A /* Executable */ = {
+			isa = PBXGroup;
+			children = (
+				CC273DE72A1B499F8E3D006F /* Source Files */,
+				E6EE4F026370450C8F47206A /* Resources */,
+				F6C6657890604288BC554EB7 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */,
+			);
+			name = Executable;
+			sourceTree = "<group>";
+		};
+		6BB4CDDD44404A528DB348BA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C9E7AB47A8EC48138030CD2A /* CMake Rules */,
+				3F23394ECCB0450C982AE461 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6F8560FBD6B040D98237EC3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E254605C94B14A89BB9C78C4 /* Executable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E7AB47A8EC48138030CD2A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CC273DE72A1B499F8E3D006F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70B5259194C4D32970A0CCB /* /Users/shraddhaarora/Desktop/dev/Test/Test/AppDelegate.m */,
+				522CA72FDE9B435C8601F363 /* /Users/shraddhaarora/Desktop/dev/Test/Test/ViewController.m */,
+				F4FA0523060C4A858841C77E /* /Users/shraddhaarora/Desktop/dev/Test/Test/main.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CF7A48630AB742FC8471F877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EE4F026370450C8F47206A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1E06595BBF44390879D7143 /* /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDF8A07C139A4C428C56A447 = {
+			isa = PBXGroup;
+			children = (
+				63DAB082B8BE43FF9C23581A /* Executable */,
+				6BB4CDDD44404A528DB348BA /* ALL_BUILD */,
+				6F8560FBD6B040D98237EC3D /* Products */,
+				CF7A48630AB742FC8471F877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDC082954F6438BBD0B0F4C /* Executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C3EED843D0491FAB4C1CC3 /* Build configuration list for PBXNativeTarget "Executable" */;
+			buildPhases = (
+				79E1B87DB1D545ACA81D556E /* Sources */,
+				700789D01F5F4B92B49DCA91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BACFC876104AE5B24B17B7 /* PBXTargetDependency */,
+			);
+			name = Executable;
+			productName = Executable;
+			productReference = E254605C94B14A89BB9C78C4 /* Executable */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8473864A99342EAAD6CFD9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = F55F2A12479840FC8722899A /* Build configuration list for PBXProject "Test" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				58F4076F48BB42F8BDD890F1 /* Debug */,
+				85663F249A3E4985BF5A7474 /* Release */,
+				3A9FFD03658A4DC7B2B4A03E /* MinSizeRel */,
+				CFAA2EC009BF4641BF413397 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EDF8A07C139A4C428C56A447;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				552BB9907D514EBDA31573E1 /* ALL_BUILD */,
+				2DDC082954F6438BBD0B0F4C /* Executable */,
+				A7937561B9F44CB99A717763 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3FFD23B22D88532B682787E4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  make -f /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  make -f /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  make -f /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  make -f /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6C9E1A85582CD0EB7171796F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/shraddhaarora/Desktop/dev/Test/Test
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E1B87DB1D545ACA81D556E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD4D7D501C74DE8A6AE9D68 /* /Users/shraddhaarora/Desktop/dev/Test/Test/AppDelegate.m */,
+				B8FF551B81B14D5FB6328ACB /* /Users/shraddhaarora/Desktop/dev/Test/Test/ViewController.m */,
+				AC5DAD952E6846A2B4F11FB8 /* /Users/shraddhaarora/Desktop/dev/Test/Test/main.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7775886D25E4470CBFE2AE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7937561B9F44CB99A717763 /* ZERO_CHECK */;
+			targetProxy = 4CE38725EDEB4085A645D1D3 /* PBXContainerItemProxy */;
+		};
+		D9BACFC876104AE5B24B17B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7937561B9F44CB99A717763 /* ZERO_CHECK */;
+			targetProxy = 91AAE6E1FA694DD1A07E53BC /* PBXContainerItemProxy */;
+		};
+		DF623BFF1A2D49A9990A0BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDC082954F6438BBD0B0F4C /* Executable */;
+			targetProxy = 191BB06654C74FD1A6BF99B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC2747296334D6DB10C544A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/shraddhaarora/Desktop/dev/Test/Test/build;
+			};
+			name = MinSizeRel;
+		};
+		17E0EC089A8D475A80A24F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1EC2F0AE5248413A9CFEC291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/shraddhaarora/Desktop/dev/Test/Test/build;
+			};
+			name = Release;
+		};
+		37057CCEACB449F0ADB71732 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/shraddhaarora/Desktop/dev/Test/Test/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++98' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework Foundation","-framework ServiceManagement","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Executable;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shraddhaarora/Desktop/dev/Test/Test/build/Executable.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		39C3D5349D724440984B6BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Users/shraddhaarora/Desktop/dev/Test/Test/build;
+			};
+			name = Debug;
+		};
+		66E2E3FCC0B0415EB2BA418C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F819DF6F62D4D1094732E1C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A04E9190A44E41579AB2438A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/shraddhaarora/Desktop/dev/Test/Test/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++98' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework Foundation","-framework ServiceManagement","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Executable;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shraddhaarora/Desktop/dev/Test/Test/build/Executable.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B96CD337EEBF44748BBB3203 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/shraddhaarora/Desktop/dev/Test/Test/build;
+			};
+			name = RelWithDebInfo;
+		};
+		C8E5943578FF498BB253813A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D60721B30A4F4706A0349F17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D74BA0F688954EF9921A1618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DB61E64DF74446B493365FE6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EE6E9BBBF4244A2EA72316DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EE9D30A954B8497099B19D04 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/shraddhaarora/Desktop/dev/Test/Test/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++98' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework Foundation","-framework ServiceManagement","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Executable;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shraddhaarora/Desktop/dev/Test/Test/build/Executable.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FBC1B6792BAB4BD49CB07021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/shraddhaarora/Desktop/dev/Test/Test/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/shraddhaarora/Desktop/dev/Test/Test/CMakeFiles/Executable.dir/Info.plist;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++98' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Cocoa","-framework Foundation","-framework ServiceManagement","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Executable;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shraddhaarora/Desktop/dev/Test/Test/build/Executable.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2A63E66728414887F5993A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6E9BBBF4244A2EA72316DA /* Debug */,
+				D74BA0F688954EF9921A1618 /* Release */,
+				DB61E64DF74446B493365FE6 /* MinSizeRel */,
+				8F819DF6F62D4D1094732E1C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B42EBB947E4F485E9DCED368 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E2E3FCC0B0415EB2BA418C /* Debug */,
+				17E0EC089A8D475A80A24F97 /* Release */,
+				D60721B30A4F4706A0349F17 /* MinSizeRel */,
+				C8E5943578FF498BB253813A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D3C3EED843D0491FAB4C1CC3 /* Build configuration list for PBXNativeTarget "Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04E9190A44E41579AB2438A /* Debug */,
+				FBC1B6792BAB4BD49CB07021 /* Release */,
+				37057CCEACB449F0ADB71732 /* MinSizeRel */,
+				EE9D30A954B8497099B19D04 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F55F2A12479840FC8722899A /* Build configuration list for PBXProject "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C3D5349D724440984B6BB9 /* Debug */,
+				1EC2F0AE5248413A9CFEC291 /* Release */,
+				0FC2747296334D6DB10C544A /* MinSizeRel */,
+				B96CD337EEBF44748BBB3203 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8473864A99342EAAD6CFD9C /* Project object */;
+}
