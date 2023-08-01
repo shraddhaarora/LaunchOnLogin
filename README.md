@@ -14,9 +14,8 @@ A simple Objective-C based application which adds your app to login items under 
 
  2. ```sh
 	mkdir build && cd build
-	cmake ..
 	cmake -H../ -B. -GXcode
-  cmake --build .
+  	cmake --build .
 	```
 
 ## Running the Project
